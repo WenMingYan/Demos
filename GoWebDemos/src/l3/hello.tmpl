@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>Hello</title>
+</head>
+
+<body>
+
+<b>hello {{- .u1.Name -}}</b><p/>
+<b>hello {{ .u1.Age }}</b><p/>
+<b>hello {{ .m1.gender }}</b><p/>
+
+<hr>
+
+{{ range $index, $h := .hobby }}
+<p>{{ $index }} - {{ $h }}</p>
+
+{{end}}
+
+<hr>
+
+{{with .m1 }}
+
+<b>hello {{- .Name -}}</b><p/>
+<b>hello {{ .Age }}</b><p/>
+<b>hello {{ .gender }}</b><p/>
+
+{{end}}
+
+</body>
+
+</html>

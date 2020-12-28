@@ -1,21 +1,21 @@
 //
-//  MYHttpDelegateViewController.m
+//  MYSessionGetViewController.m
 //  iOSDemos
 //
 //  Created by WenMingYan on 2020/12/8.
 //  Copyright © 2020 MingYan. All rights reserved.
 //
 
-#import "MYHttpDelegateViewController.h"
+#import "MYSessionGetViewController.h"
 #import <Masonry/Masonry.h>
 
-@interface MYHttpDelegateViewController ()
+@interface MYSessionGetViewController ()
 
 @property (nonatomic, strong) UIButton *btn;/**< request btn  */
 
 @end
 
-@implementation MYHttpDelegateViewController
+@implementation MYSessionGetViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Http Delegate";

@@ -10,11 +10,14 @@
 		667E71F9ABD211ECABFD6B06 /* libPods-iOSDemos-iOSDemosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1FD3EA501FE8C4FF2BEEED /* libPods-iOSDemos-iOSDemosUITests.a */; };
 		A8F45432BC5156B6AB8E8DC5 /* libPods-iOSDemosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7923D646C22EA5C9150CCB /* libPods-iOSDemosTests.a */; };
 		B4F6CF948641E5450F4EBC3C /* libPods-iOSDemos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA9638E34CFF91454509B31 /* libPods-iOSDemos.a */; };
+		DE31796F258B705A003F84FA /* MYAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE31796E258B705A003F84FA /* MYAutoLayoutViewController.m */; };
+		DE317975258B7072003F84FA /* MYDemoview.m in Sources */ = {isa = PBXBuildFile; fileRef = DE317974258B7072003F84FA /* MYDemoview.m */; };
 		DE67FE4E256DFEFE00A3726D /* MYConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE67FE4D256DFEFE00A3726D /* MYConnectViewController.m */; };
 		DE993B5C2564BAA9009E3B63 /* MYGCDDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE993B5B2564BAA9009E3B63 /* MYGCDDemoViewController.m */; };
-		DEA3D251257F25C50017C127 /* MYGetHttpRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA3D250257F25C50017C127 /* MYGetHttpRequestViewController.m */; };
-		DEA3D25A257F28BB0017C127 /* MYPostHttpRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA3D259257F28BB0017C127 /* MYPostHttpRequestViewController.m */; };
-		DEA3D263257F2C3C0017C127 /* MYHttpDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA3D262257F2C3C0017C127 /* MYHttpDelegateViewController.m */; };
+		DEA3D251257F25C50017C127 /* MYSessionDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA3D250257F25C50017C127 /* MYSessionDelegateViewController.m */; };
+		DEA3D25A257F28BB0017C127 /* MYSessionPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA3D259257F28BB0017C127 /* MYSessionPostViewController.m */; };
+		DEA3D263257F2C3C0017C127 /* MYSessionGetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA3D262257F2C3C0017C127 /* MYSessionGetViewController.m */; };
+		DEA3D269257F35B80017C127 /* MYSessionDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA3D268257F35B80017C127 /* MYSessionDownloadViewController.m */; };
 		DEFE32A224BEB6AE0033339A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFE32A124BEB6AE0033339A /* AppDelegate.m */; };
 		DEFE32A524BEB6AE0033339A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFE32A424BEB6AE0033339A /* SceneDelegate.m */; };
 		DEFE32A824BEB6AE0033339A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFE32A724BEB6AE0033339A /* ViewController.m */; };
@@ -56,16 +59,22 @@
 		BC1FD3EA501FE8C4FF2BEEED /* libPods-iOSDemos-iOSDemosUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSDemos-iOSDemosUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0421CDBC70BC2D775966135 /* Pods-iOSDemos-iOSDemosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemos-iOSDemosUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSDemos-iOSDemosUITests/Pods-iOSDemos-iOSDemosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D4F44049E323CDD9A3142420 /* Pods-iOSDemos-iOSDemosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemos-iOSDemosUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSDemos-iOSDemosUITests/Pods-iOSDemos-iOSDemosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE31796D258B705A003F84FA /* MYAutoLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYAutoLayoutViewController.h; sourceTree = "<group>"; };
+		DE31796E258B705A003F84FA /* MYAutoLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYAutoLayoutViewController.m; sourceTree = "<group>"; };
+		DE317973258B7072003F84FA /* MYDemoview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYDemoview.h; sourceTree = "<group>"; };
+		DE317974258B7072003F84FA /* MYDemoview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYDemoview.m; sourceTree = "<group>"; };
 		DE67FE4C256DFEFE00A3726D /* MYConnectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYConnectViewController.h; sourceTree = "<group>"; };
 		DE67FE4D256DFEFE00A3726D /* MYConnectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYConnectViewController.m; sourceTree = "<group>"; };
 		DE993B5A2564BAA9009E3B63 /* MYGCDDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYGCDDemoViewController.h; sourceTree = "<group>"; };
 		DE993B5B2564BAA9009E3B63 /* MYGCDDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYGCDDemoViewController.m; sourceTree = "<group>"; };
-		DEA3D24F257F25C50017C127 /* MYGetHttpRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYGetHttpRequestViewController.h; sourceTree = "<group>"; };
-		DEA3D250257F25C50017C127 /* MYGetHttpRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYGetHttpRequestViewController.m; sourceTree = "<group>"; };
-		DEA3D258257F28BB0017C127 /* MYPostHttpRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYPostHttpRequestViewController.h; sourceTree = "<group>"; };
-		DEA3D259257F28BB0017C127 /* MYPostHttpRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYPostHttpRequestViewController.m; sourceTree = "<group>"; };
-		DEA3D261257F2C3C0017C127 /* MYHttpDelegateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYHttpDelegateViewController.h; sourceTree = "<group>"; };
-		DEA3D262257F2C3C0017C127 /* MYHttpDelegateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYHttpDelegateViewController.m; sourceTree = "<group>"; };
+		DEA3D24F257F25C50017C127 /* MYSessionDelegateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYSessionDelegateViewController.h; sourceTree = "<group>"; };
+		DEA3D250257F25C50017C127 /* MYSessionDelegateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYSessionDelegateViewController.m; sourceTree = "<group>"; };
+		DEA3D258257F28BB0017C127 /* MYSessionPostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYSessionPostViewController.h; sourceTree = "<group>"; };
+		DEA3D259257F28BB0017C127 /* MYSessionPostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYSessionPostViewController.m; sourceTree = "<group>"; };
+		DEA3D261257F2C3C0017C127 /* MYSessionGetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYSessionGetViewController.h; sourceTree = "<group>"; };
+		DEA3D262257F2C3C0017C127 /* MYSessionGetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYSessionGetViewController.m; sourceTree = "<group>"; };
+		DEA3D267257F35B80017C127 /* MYSessionDownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYSessionDownloadViewController.h; sourceTree = "<group>"; };
+		DEA3D268257F35B80017C127 /* MYSessionDownloadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYSessionDownloadViewController.m; sourceTree = "<group>"; };
 		DEFE329D24BEB6AE0033339A /* iOSDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFE32A024BEB6AE0033339A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DEFE32A124BEB6AE0033339A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -148,14 +157,27 @@
 			children = (
 				DE67FE4C256DFEFE00A3726D /* MYConnectViewController.h */,
 				DE67FE4D256DFEFE00A3726D /* MYConnectViewController.m */,
-				DEA3D24F257F25C50017C127 /* MYGetHttpRequestViewController.h */,
-				DEA3D250257F25C50017C127 /* MYGetHttpRequestViewController.m */,
-				DEA3D258257F28BB0017C127 /* MYPostHttpRequestViewController.h */,
-				DEA3D259257F28BB0017C127 /* MYPostHttpRequestViewController.m */,
-				DEA3D261257F2C3C0017C127 /* MYHttpDelegateViewController.h */,
-				DEA3D262257F2C3C0017C127 /* MYHttpDelegateViewController.m */,
+				DEA3D24F257F25C50017C127 /* MYSessionDelegateViewController.h */,
+				DEA3D250257F25C50017C127 /* MYSessionDelegateViewController.m */,
+				DEA3D258257F28BB0017C127 /* MYSessionPostViewController.h */,
+				DEA3D259257F28BB0017C127 /* MYSessionPostViewController.m */,
+				DEA3D261257F2C3C0017C127 /* MYSessionGetViewController.h */,
+				DEA3D262257F2C3C0017C127 /* MYSessionGetViewController.m */,
+				DEA3D267257F35B80017C127 /* MYSessionDownloadViewController.h */,
+				DEA3D268257F35B80017C127 /* MYSessionDownloadViewController.m */,
 			);
 			path = Connect;
+			sourceTree = "<group>";
+		};
+		DEA3D7E52580B5DD0017C127 /* Autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				DE31796D258B705A003F84FA /* MYAutoLayoutViewController.h */,
+				DE31796E258B705A003F84FA /* MYAutoLayoutViewController.m */,
+				DE317973258B7072003F84FA /* MYDemoview.h */,
+				DE317974258B7072003F84FA /* MYDemoview.m */,
+			);
+			path = Autolayout;
 			sourceTree = "<group>";
 		};
 		DEFE329424BEB6AE0033339A = {
@@ -183,6 +205,7 @@
 		DEFE329F24BEB6AE0033339A /* iOSDemos */ = {
 			isa = PBXGroup;
 			children = (
+				DEA3D7E52580B5DD0017C127 /* Autolayout */,
 				DE67FE4B256DFEB700A3726D /* Connect */,
 				DEFE32DD24C57CC20033339A /* MVP */,
 				DEFE32D524BEE04B0033339A /* Push */,
@@ -469,16 +492,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEFE32E024C57CCC0033339A /* MYMVPViewController.m in Sources */,
-				DEA3D25A257F28BB0017C127 /* MYPostHttpRequestViewController.m in Sources */,
+				DEA3D25A257F28BB0017C127 /* MYSessionPostViewController.m in Sources */,
+				DEA3D269257F35B80017C127 /* MYSessionDownloadViewController.m in Sources */,
+				DE317975258B7072003F84FA /* MYDemoview.m in Sources */,
 				DEFE32A824BEB6AE0033339A /* ViewController.m in Sources */,
 				DEFE32D824BEE0840033339A /* TYPushNotificationViewController.m in Sources */,
 				DEFE32A224BEB6AE0033339A /* AppDelegate.m in Sources */,
 				DE67FE4E256DFEFE00A3726D /* MYConnectViewController.m in Sources */,
 				DE993B5C2564BAA9009E3B63 /* MYGCDDemoViewController.m in Sources */,
 				DEFE32B324BEB6AF0033339A /* main.m in Sources */,
+				DE31796F258B705A003F84FA /* MYAutoLayoutViewController.m in Sources */,
 				DEFE32E624C57D190033339A /* MYBookModel.m in Sources */,
-				DEA3D263257F2C3C0017C127 /* MYHttpDelegateViewController.m in Sources */,
-				DEA3D251257F25C50017C127 /* MYGetHttpRequestViewController.m in Sources */,
+				DEA3D263257F2C3C0017C127 /* MYSessionGetViewController.m in Sources */,
+				DEA3D251257F25C50017C127 /* MYSessionDelegateViewController.m in Sources */,
 				DEFE32A524BEB6AE0033339A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,7 +610,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -636,7 +662,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

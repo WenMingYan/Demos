@@ -1,25 +1,24 @@
 //
-//  MYPostHttpRequestViewController.m
+//  MYSessionGetViewController.m
 //  iOSDemos
 //
 //  Created by WenMingYan on 2020/12/8.
 //  Copyright © 2020 MingYan. All rights reserved.
 //
 
-#import "MYPostHttpRequestViewController.h"
+#import "MYSessionGetViewController.h"
 #import <Masonry/Masonry.h>
 
-@interface MYPostHttpRequestViewController ()
+@interface MYSessionGetViewController ()
 
 @property (nonatomic, strong) UIButton *btn;/**< request btn  */
 
 @end
 
-@implementation MYPostHttpRequestViewController
-
+@implementation MYSessionGetViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"POSt Http";
+    self.title = @"Http Delegate";
     [self.view addSubview:self.btn];
     [self.btn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(self.view);

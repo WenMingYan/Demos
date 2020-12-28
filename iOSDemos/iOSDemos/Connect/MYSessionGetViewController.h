@@ -1,5 +1,5 @@
 //
-//  MYGetHttpRequestViewController.h
+//  MYSessionGetViewController.h
 //  iOSDemos
 //
 //  Created by WenMingYan on 2020/12/8.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MYGetHttpRequestViewController : UIViewController
+@interface MYSessionGetViewController : UIViewController
 
 @end
 

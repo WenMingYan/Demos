@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>测试嵌套template语法</title>
+</head>
+<body>
+
+{{template "ul.tmpl"}}
+
+{{/* 嵌套另外一个模板 */}}
+{{template "ol.tmpl"}}
+
+</body>
+</html>
+
+{{/* 通过define定义一个模板 */}}
+{{ define "ol.tmpl" }}
+<ol>
+    <li>eat</li>
+    <li>sleep</li>
+    <li>beat bean</li>
+</ol>
+
+{{end}}
+
+

@@ -76,7 +76,8 @@
         @"push notification":@"TYPushNotificationViewController",
         @"MVP":@"MYMVPViewController",
         @"GCD":@"MYGCDDemoViewController",
-        @"网络请求":@"MYConnectViewController"
+        @"网络请求":@"MYConnectViewController",
+        @"autolayout":@"MYAutoLayoutViewController",
     };
 }
 
@@ -86,6 +87,7 @@
         @"MVP",
         @"GCD",
         @"网络请求",
+        @"autolayout",
     ];
 }
 

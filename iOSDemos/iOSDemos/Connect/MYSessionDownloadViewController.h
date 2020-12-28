@@ -1,5 +1,5 @@
 //
-//  MYHttpDelegateViewController.h
+//  MYSessionDownloadViewController.h
 //  iOSDemos
 //
 //  Created by WenMingYan on 2020/12/8.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MYHttpDelegateViewController : UIViewController
+@interface MYSessionDownloadViewController : UIViewController
 
 @end
 

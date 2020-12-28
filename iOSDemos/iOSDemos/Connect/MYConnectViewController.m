@@ -78,9 +78,10 @@
 
 - (NSDictionary<NSString *,NSString *> *)nameDict {
     return @{
-        @"GetHttp":@"MYGetHttpRequestViewController",
-        @"PostHttp":@"MYPostHttpRequestViewController",
-        @"HttpDelegate":@"MYHttpDelegateViewController",
+        @"GetHttp":@"MYSessionGetViewController",
+        @"PostHttp":@"MYSessionPostViewController",
+        @"HttpDelegate":@"MYSessionDelegateViewController",
+        @"download":@"MYSessionDownloadViewController",
     };
 }
 
@@ -89,6 +90,7 @@
         @"GetHttp",
         @"PostHttp",
         @"HttpDelegate",
+        @"download",
     ];
 }
 
